@@ -1,0 +1,51 @@
+# ----------------------------
+# Python cache
+# ----------------------------
+__pycache__/
+*.pyc
+
+# ----------------------------
+# Environment files
+# ----------------------------
+.env
+
+# ----------------------------
+# Model files (do NOT upload)
+# ----------------------------
+
+*.bin
+*.gguf
+*.pth
+
+# ----------------------------
+
+*.csv
+
+# ----------------------------
+# FastAPI logs
+# ----------------------------
+logs/
+*.log
+
+# ----------------------------
+# Node / npm / Next.js
+# ----------------------------
+node_modules/
+package-lock.json
+.next/
+postcss.config.mjs
+nextjs.config.mjs
+tailwind.config.js
+eslint.config.mjs
+jsconfig.json
+
+# ----------------------------
+# IDE / Editor
+# ----------------------------
+.vscode/
+
+# ----------------------------
+# OS generated
+# ----------------------------
+Thumbs.db
+.DS_Store
